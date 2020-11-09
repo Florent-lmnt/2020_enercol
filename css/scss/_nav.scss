@@ -1,0 +1,55 @@
+.barrnav {
+  background-color: $colorGreen;
+}
+
+.desktop_nav {
+  display: none;
+  list-style: none;
+}
+
+.desktop_nav li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.colorO {
+  background-color: $colorYellow;
+}
+
+.menu-checkbox:checked ~ .desktop_nav {
+  display: block;
+}
+
+.menu-checkbox {
+  position: absolute;
+  opacity: 0;
+  top: 20px;
+}
+
+.menu-toggle {
+  padding: 0.5em;
+}
+
+.nav-wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 800px) {
+  .menu-toggle,
+  .menu-checkbox {
+    display: none;
+  }
+
+  .desktop_nav {
+    display: block;
+    flex-basis: auto;
+  }
+
+  .desktop_nav li {
+    display: inline-block;
+  }
+}
