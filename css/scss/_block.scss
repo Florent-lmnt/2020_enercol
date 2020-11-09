@@ -1,0 +1,55 @@
+$colorYellow: rgb(254, 183, 49);
+$colorGreen: rgb(179, 209, 67);
+$colorGrey: rgb(232, 221, 202);
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+
+}
+
+.logoText {
+  width: 25%;
+}
+
+.nav {
+  width: 50%;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+}
+
+.article div{
+  margin-top: 10px;
+}
+
+.articleJ {
+  background-color: $colorYellow;
+  width: 100%;
+  height: 100px;
+}
+
+.articleV {
+  background-color: $colorGreen;
+  width: 100%;
+  height: 100px;
+}
+
+.articleB {
+  width: 100%;
+  height: 100px;
+}
+
+.articleG {
+  background-color: $colorGrey;
+  width: 100%;
+  height: 100px;
+}
+
