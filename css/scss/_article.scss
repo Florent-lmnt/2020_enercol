@@ -1,3 +1,4 @@
+/*Mise en place des articles*/
 .div-img-text {
   display: flex;
   justify-content: space-around;
@@ -21,7 +22,7 @@
   }
 }
 
-.pycto {
+.picto {
   width: 10%;
   padding-top: 10px;
   display: flex;
@@ -33,6 +34,7 @@
   }
 }
 
+/*Permet de placer en bas d'article le picto seul*/
 .alone {
   justify-content: flex-end;
 }
