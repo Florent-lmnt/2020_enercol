@@ -9,90 +9,12 @@ $colorTextArt: rgb(255, 255, 255);
   margin: 0 auto;
 }
 
-.header {
-  width: 100%;
-  height: 100px;
-
-}
-
-.logoText {
-  width: 25%;
-}
-
-.nav {
-  width: 50%;
-}
-
-.main {
-  width: 100%;
-  height: 500px;
-}
-
-.div-img-text {
-  display: flex;
-  justify-content: space-around;
-  padding: 5px 0 20px 0;
-}
-
-.text-article {
-  width: 45%;
-  height: 100%;
-  padding-top: 35px;
-  padding-left: 20px;
-}
-
-.img-article {
-  width: 45%;
-  height: 100%;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.pycto {
-  width: 10%;
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  img {
-    width: 30%;
-  }
-}
-
-.alone {
-  justify-content: flex-end;
-}
-
-
-.articleJ {
-  background-color: $colorYellow;
+.img {
   width: 100%;
   height: 100%;
-  color: $colorTextArt;
 }
 
-.articleV {
-  background-color: $colorGreen;
-  width: 100%;
-  height: 100%;
-  color: $colorText;
-}
 
-.articleB {
-  width: 100%;
-  height: 100%;
-  color: $colorText;
-  background-image: url("../img/points.svg");
-}
 
-.articleG {
-  background-color: $colorGrey;
-  width: 100%;
-  height: 100%;
-  color: $colorText;
-}
+
 

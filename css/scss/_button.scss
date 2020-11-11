@@ -1,0 +1,11 @@
+$colorBackBtn: #000;
+$colorTextBtn:  #fff;
+.btn {
+  background-color: $colorBackBtn;
+  color: $colorTextBtn;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
