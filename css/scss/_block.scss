@@ -2,12 +2,17 @@
 $colorYellow: rgb(254, 183, 49);
 $colorGreen: rgb(179, 209, 67);
 $colorGrey: rgb(232, 221, 202);
+$colorBrown: rgb(195, 168, 117);
+$colorBlue: rgb(0, 175, 236);
 $colorText: rgb(109, 111, 113);
 $colorTextArt: rgb(255, 255, 255);
 
-.container {
-  width: 970px;
-  margin: 0 auto;
+
+@media screen and (min-width: 970px) {
+  .container {
+    width: 970px;
+    margin: 0 auto;
+  }
 }
 
 .img {

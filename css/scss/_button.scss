@@ -1,9 +1,19 @@
 /*changment style d'un input type button*/
-$colorBackBtn: #000;
-$colorTextBtn:  #fff;
 .btn {
-  background-color: $colorBackBtn;
-  color: $colorTextBtn;
+  background-color: $colorText;
+  color: $colorTextArt;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-souscrire {
+  background-color: $colorYellow;
+  color: #000;
+  border-radius: 10px;
   font-weight: bold;
   border: none;
   padding: 10px;
