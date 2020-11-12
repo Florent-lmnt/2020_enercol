@@ -8,26 +8,6 @@
   background-position: center;
 }
 
-.child-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logoText {
-  width: 10%;
-  background-color: $colorTextArt;
-  text-align: center;
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-.nav {
-  width: 70%;
-}
-
 .subscribe {
   background-color: $colorYellow;
   width: 10%;
@@ -35,6 +15,7 @@
   padding: 10px;
   text-align: center;
   font-weight: bold;
+
   a {
     text-decoration: none;
     color: black;
@@ -48,7 +29,75 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   .header-pic {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .child-header {
+    background-color: $colorTextArt;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logoText {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .child-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logoText {
+    width: 10%;
+    background-color: $colorTextArt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .nav {
     width: 70%;
   }
 }

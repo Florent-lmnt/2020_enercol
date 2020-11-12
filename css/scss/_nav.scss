@@ -1,8 +1,4 @@
 /*Mise en place du nav responsive*/
-.barrnav {
-  background-color: $colorGreen;
-}
-
 .desktop_nav {
   display: none;
   flex-basis: 100%;
@@ -30,18 +26,23 @@
 }
 
 .menu-toggle {
-  padding: 5px;
+  padding: 15px;
   font-weight: bold;
+  margin: 0;
 }
 
 .nav-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
-@media screen and (min-width: 970px) {
+li.nav-mobile {
+  display: block;
+}
+
+  @media screen and (min-width: 970px) {
   .menu-toggle,
   .menu-checkbox {
     display: none;
@@ -54,5 +55,13 @@
 
   .desktop_nav li {
     display: inline-block;
+  }
+
+  .barrnav {
+    background-color: $colorGreen;
+  }
+
+  li.nav-mobile {
+    display: none;
   }
 }
