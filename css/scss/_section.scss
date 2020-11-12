@@ -35,34 +35,18 @@
 
 .cooperateur {
   color: $colorBrown;
-
-  .resize-coop {
-    width: 25%;
-  }
 }
 
 .installation {
   color: $colorGreen;
-
-  .resize-instal {
-    width: 22%;
-  }
 }
 
 .prod-annu {
   color: $colorYellow;
-
-  .resize-prod {
-    width: 18%;
-  }
 }
 
 .capital {
   color: $colorBlue;
-
-  .resize-capital {
-    width: 30%;
-  }
 }
 
 .btn-picto-prod {
@@ -76,13 +60,36 @@
 @media screen and (min-width: 970px) {
   .sub-title {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
   }
 
+  .both {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .main-desc {
-    width: 25%;
+    width: 100%;
     text-align: center;
+    padding: 20px;
+  }
+
+  .resize-coop {
+    width: 100%;
+  }
+
+  .resize-instal {
+    width: 90%;
+  }
+
+  .resize-prod {
+    width: 50%;
+  }
+
+  .resize-capital {
+    width: 100%;
   }
 
   .main-article {
@@ -115,13 +122,37 @@
 @media screen and (max-width: 970px) {
   .sub-title {
     margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .both {
+    display: flex;
+    justify-content: center;
   }
 
   .main-desc {
-    width: 25%;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
+  }
+
+  .resize-coop {
+    width: 30%;
+  }
+
+  .resize-instal {
+    width: 25%;
+  }
+
+  .resize-prod {
+    width: 15%;
+  }
+
+  .resize-capital {
+    width: 30%;
   }
 
   .input {
